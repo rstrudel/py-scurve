@@ -5,7 +5,7 @@ from .planner import TrajectoryPlanner
 import logging
 
 
-logging.basicConfig(format='%(message)s', level=logging.DEBUG)
+# logging.basicConfig(format='%(message)s', level=logging.DEBUG)
 
 planning_logger = logging.getLogger(__name__)
 
